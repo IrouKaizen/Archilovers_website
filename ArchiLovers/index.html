@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchiLovers</title>
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+                <!--<img src="photos/favicon.ico" alt="">-->
+                <div class="">
+                    ArchiLovers
+                    <br>
+                    <i class="bx bxs-home-alt-2"></i>
+                    <i class='bx bx-happy-heart-eyes'></i>
+                    <i class='bx bxs-building-house'></i>
+                </div>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home-alt-2"></i>
+                            <span>Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#residence" class="nav__link">
+                            <i class="bx bx-building-house"></i>
+                            <span>Modèles</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class="bx bx-award"></i>
+                            <span>Valeurs</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="bx bx-phone"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--theme change button-->
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+            <a href="#" class="button nav__button">
+                S'abonner
+            </a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Archi <br>Lovers
+                    </h1>
+                    <p class="home__description">
+                        Nous sommes une équipe d'architectes bâtiment et d'intérieur. <br> Nous intégrons des principes esthétiques dans la conception tout en tenant compte de la durabilité, et des matériaux écologiques pour créer des bâtiments attrayants.</p>
+                    <form action="" class="home__search">
+                        <i class="bx bxs-search"></i> &nbsp;
+                        <input type="search" placeholder="modèles..." class="">
+                        <button class="button">Chercher</button>
+                    </form>
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                9k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Clients <br> satisfaits
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                8k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Produits <br> de qualité
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                3k <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Architectes <br> en collaboration
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+                    <div class="home__img">
+                        <img src="photos/acc.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="logos section ">
+            <h3> &nbsp; Nos partenaires</h3>
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="photos/log-removebg-preview (2).png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="photos/logo3-removebg-preview.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="photos/logo2-removebg-preview.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="photos/logo1-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="container" id="value">
+                <span class="section__subtile">Meilleurs choix</span>
+                <h2 class="section__title">
+                    Modèles extérieurs les plus désirés <span>.</span>
+                </h2>
+            </div>
+            <div class="slidee">
+                <div class="containe">
+                    <div class="panel active" style="background-image: url('photos/img1.jpg')">
+                        <h3>Modèle ext1</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img2.jpg');">
+                        <h3>Modèle ext2</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img3.jpg');">
+                        <h3>Modèle ext3</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img4.jpg');">
+                        <h3>Modèle ext4</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img2.jpg');">
+                        <h3>Modèle ext5</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img3.jpg');">
+                        <h3>Modèle ext6</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img4.jpg');">
+                        <h3>Modèle ext7</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/img5.jpg');">
+                        <h3>Modèle ext8</h3>
+                    </div>
+                </div>
+            </div>
+            <!--int-->
+            <div class="container">
+                <h2 class="section__title">
+                    Modèles intérieurs les plus désirés <span>.</span>
+                </h2>
+            </div>
+            <div class="slidee">
+                <div class="containe">
+                    <div class="panel active" style="background-image: url('photos/imgg1.jpg')">
+                        <h3>Modèle int1</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg2.jpg');">
+                        <h3>Modèle int2</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg3.jpg');">
+                        <h3>Modèle int3</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg4.jpg');">
+                        <h3>Modèle int4</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg2.jpg');">
+                        <h3>Modèle int5</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg3.jpg');">
+                        <h3>Modèle int6</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg4.jpg');">
+                        <h3>Modèle int7</h3>
+                    </div>
+                    <div class="panel" style="background-image: url('photos/imgg5.jpg');">
+                        <h3>Modèle int8</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="value section" id="residence">
+            <div class="value__container container grid">
+                <div class="values__images">
+                    <div class="values__orbe"></div>
+                    <div class="value__img">
+                        <img src="photos/im2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nos valeurs</span>
+                        <h2 class="section__title">
+                            Pourquoi nous choisir <span>.</span>
+                        </h2>
+                        <p class="value__description">
+                            Chaque architecte dans son domaine d'expertise collabore avec ses collègues afin d'arriver au but précis. Nous vous promettons :
+                        </p>
+                    </div>
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bxs-check-square value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Excellente conception et planification
+                                </h3>
+                            </header>
+                        </div>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bxs-check-square value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Utilisation efficace de l'espace 
+                                </h3>
+                            </header>
+                        </div>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bxs-check-square value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Esthétique et durabilité
+                                </h3>
+                            </header>
+                        </div>
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bxs-check-square value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Optimisation de l'ergonomie
+                                </h3>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+                    <div class="contact__img">
+                        <img src="photos/im1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Nous contacter</span>
+                        <h2 class="section__title">
+                            Très facile de nous joindre <span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Nous vous repondrons dans le plus bref délais. Que ce soit appel téléphonique, un message dans notre boîte mail !
+                        </p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-phone"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Appel
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +1 789 456 21
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Maintenant
+                            </button>
+                        </div>
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-message-rounded-dots"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Messagerie
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +1 789 159 21
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Maintenant
+                            </button>
+                        </div>
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-video"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Appel vidéo
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +1 456 159 21
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Maintenant
+                            </button>
+                        </div>
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-envelope"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Courrier
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        lovers@archi.co
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="button contact__card-button">
+                                Maintenant
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Testimony-->
+
+        <h3>&nbsp; Nos supérieurs</h3> <br>
+        <section class="testimony">
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="photos/tes.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code">Joyce COUL</span>
+                      <div class="blog-slider__title">Fondatrice</div>
+                    </div>
+                  </div>
+                  
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="photos/tesss.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code">Adele SHELBY</span>
+                      <div class="blog-slider__title">Cheffe d'architectes bâtiments</div>
+                    </div>
+                  </div>
+                  
+                  <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="photos/tess.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                      <span class="blog-slider__code">Marc FLORENT</span>
+                      <div class="blog-slider__title">Chef d'architectes d'intérieur</div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="blog-slider__pagination"></div>
+              </div>
+
+              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+        </section>
+
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    S'abonner à nos articles & nouvelles
+                </h1>
+                <br>
+                <p class="subscribe__description">
+                    Ne manquez pas surtout nos articles & blogs sur nos traveaux et rénovation de tous les jours en soumettant votre adresse mail.
+                </p>
+                <br>
+                <a href="#" class="button subscribe__button">S'abonner</a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="" class="footer__logo">Archilovers</a>
+                    <i class="bx bxs-home-alt-2"></i>
+                    <i class='bx bx-happy-heart-eyes'></i>
+                    <i class='bx bxs-building-house'></i>
+                    <p class="footer__description">
+                        Nous n'attendons que vous !
+                    </p>
+                </div>
+                <div class="footer__content">
+                    <div class="">
+                        <h3 class="footer__title">
+                            A propos
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">A propos de nous</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nos collaborations</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nouvelles</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="footer__title">
+                            Nos compagnies
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Nos fonctions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Sécurité</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="footer__title">
+                            Supports
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link"> Centre de support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nous contacter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="footer__title">
+                            Nous suivre
+                        </h3>
+                        <ul class="footer__social">
+                                <a href="#" target="_blank" class="footer__social-link"></a>
+                                <i class="bx bxl-facebook-circle"></i>
+                                <a href="#" target="_blank" class="footer__social-link"></a>
+                                <i class="bx bxl-instagram-alt"></i>
+                                <a href="#" target="_blank" class="footer__social-link"></a>
+                                <i class="bx bxl-pinterest"></i>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Iroukode. Tous droits reservés
+                </span>
+
+            </div>
+        </footer>
+
+        <!--Scroll up-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="bx bx-chevron-up"></i>
+        </a>
+    </main>
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
